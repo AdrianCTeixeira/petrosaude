@@ -1,0 +1,395 @@
+.place-mid{
+	width: 85%;
+	margin-left:7.5%;
+}
+.container{
+	height: 80px;
+}
+/***************HEADER****************/
+header{
+	width: 100%;
+	border-bottom: 3px solid #d7d7d7;
+	position: fixed;
+	top: 0;
+	background-color: white;
+}
+.logo-div{
+	height: 80px;
+	width: 20%;
+	float: left;
+}
+.logo-div img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 80%;
+	max-height: 80%;
+}
+nav{
+	float: right;
+	width: 80%;
+	height: 80px;
+}
+nav ul{
+	display: block;
+	margin-top: 35px;
+	margin-right: 100px;
+	float: right;
+}
+nav li{
+	margin-left: 50px;
+	display: inline-block;
+	font-family: 'WoodfordBournePRO-Light';
+	font-size: 30px;
+}
+.active{
+	border-bottom: 3px solid blue;
+}
+
+
+/***************MAIN****************/
+main{
+	margin-bottom: 80px;
+}
+#home{
+	height: 350px;
+	margin-top: 160px;
+	margin-bottom: 75px;
+}
+#home img{
+	width: 100%;
+	height: 100%;
+}
+#quemsomos h1{
+	line-height: 100px;
+	margin-left: 50px;
+	font-family: 'Eras Light ITC';
+	font-size: 50px;
+}
+.compromisso{
+	padding: 15px 0 15px 0;
+	margin-top: 15px;
+	display: flex;
+}
+.fig{
+	width: 38%;
+	margin-left: 10px;
+	float: left;
+}
+.fig img{
+	height: 80%;
+	width: 100%;
+}
+.fig p{
+	margin-top: 5px;
+	font-family: 'Eras Light ITC';
+	text-align: center;
+	margin-bottom: 15px;
+}
+.text{
+	width: 62%;
+	margin-left: 50px;
+	margin-right: 15px;
+	float: right;
+}
+.text h3{
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.text p{
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 20px;
+	line-height: 32px;
+}
+.estatisticas{
+	margin-top: 75px;
+	height: 250px;
+	background-color: #e4e4e4;
+}
+.stats{
+	display: flex;
+	align-items: center;
+}
+.stat{
+	margin-left: 6%;
+	width: 25%;
+	height: 200px;
+	margin-top: 25px;
+	padding-top: 25px;
+}
+.stat h3{
+	text-align: center;
+	font-family: 'Eras Light ITC';
+	font-size: 45px;	
+	font-weight: 600;
+	color: #434546;
+}
+.stat h3:before{
+	height: 10px;
+	width: 10px;
+	right: 0px;
+	top: 0px;
+	margin-left: 1px;
+}
+.calendar h3:before{
+	font-family: FontAwesome;
+	content: "\f274";
+}
+.medic h3:before{
+	font-family: FontAwesome;
+	content: "\f0f0";
+}
+.heart h3:before{
+	content: "\f21e";
+	font-family: FontAwesome;
+}
+.stat p{
+	margin-top: 15px;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	text-align: center;
+}
+.satisfacao{
+	padding: 15px 0 15px 0;
+	margin-top: 75px;
+	display: flex;
+}
+.fig-sats{
+	width: 38%;
+	margin-right: 10px;
+	float: right;
+}
+.fig-sats img{
+	height: 80%;
+	width: 100%;
+}
+.fig-sats p{
+	margin-top: 10px;
+	font-family: 'Eras Light ITC';
+	text-align: center;
+	margin-bottom: 15px;
+}
+.text-sats{
+	width: 62%;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+}
+.text-sats h3{
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+.text-sats p{
+	font-family: 'Josefin Sans';
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 20px;
+	line-height: 32px;
+}
+.historia{
+	padding: 15px 0 15px 0;
+	margin-top: 50px;
+	display: flex;
+}
+.fig-historia{
+	width: 28%;
+	float: left;
+	margin-left: 50px;
+}
+.fig-historia img{
+	width: 100%;
+	height: 90%;
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.fig-historia p{
+	margin-top: 15px;
+	font-family: 'Eras Light ITC';
+	text-align: center;
+	margin-bottom: 15px;
+}
+.text-historia{
+	margin-left: 45px;
+	width: 60%;
+	float: right;
+}
+.text-historia h3{
+	font-family: 'Microsoft Yi Baiti';
+	font-size: 60px;
+	font-weight: 400;
+	margin-top: 15px;
+	text-align: center;
+}
+.text-historia p{
+	font-family: 'Eras Light ITC';
+	font-size: 21px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-top: 35px;
+}
+#profissionais h1{
+	line-height: 100px;
+	margin-left: 50px;
+	font-family: 'Eras Light ITC';
+	font-size: 50px;
+}
+.cards{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.card{
+	border: 1px solid #c3d3ce;
+	width: 320px;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+.card img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin-top: 40px;
+}
+.card h4{
+	font-family: 'Eras Light ITC';
+	font-size: 24px;
+	margin-top: 5px;
+}
+.card h4:before{	
+	font-family: FontAwesome;
+	content: "\f0f1";
+	margin-right: 5px;
+}
+.card h3{
+	margin-top: 15px;
+	font-family: 'Eras Light ITC';
+	font-size: 35px;
+}
+.card h5{
+	font-family: 'Eras Light ITC';
+	font-size: 23px;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/***************FOOTER****************/
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #3e4551;
+}
+.logo-footer{
+	width: 20%;
+	height: 80px;
+	float: left;
+}
+.logo-footer img{
+	margin-top: 25px;
+	margin-left: 10px;	
+	float: left;
+}
+.contato{
+	height: 80px;
+	width: 600px;
+	float: right;
+	display: flex;
+}
+.s{
+	height: 80px;
+	width: 34%;	
+	display: inline-block;
+	margin: 0;
+	text-align: center;
+}
+.social-media{
+	display: flex;
+	position: relative;
+}
+.sm{
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+.sm img{
+	width: 100%;
+	height: 100%;
+}
+.sm:hover {
+	opacity: 0.6;
+}
+.social-media:after {
+	content: '';
+	border-left: 1px solid grey;
+	height: 50px;
+	right: 0px;
+	top: 15px;
+	margin-left: 1px;
+	position: absolute;
+}
+.phone{
+	width: 30%;
+}
+.phone:after{
+	content: '';
+	border-left: 1px solid grey;
+	height: 50px;
+	top: 15px;
+	margin-left: 10px;
+	position: absolute;
+}
+.phone a{
+	font-family: 'Courier New';
+	color: white;
+	font-size: 15px;
+	padding-top: 15px;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 5px;
+}
+.phone a:before {
+	font-family: FontAwesome;
+	content: "\f095";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+}
+.email a{
+	font-family: 'Courier New';
+	color: white;
+	font-size: 14px;
+	padding-top: 14px;
+	height: 80px;
+	line-height: 78px;
+	margin-left: 10px;
+}
+.email a:before{
+	font-family: FontAwesome;
+	content: "\f0e0";
+	padding-right: 4px;
+}
+@media (max-width:1120px){
+	header, main, footer{
+		width: 1120px;
+	}
+}
